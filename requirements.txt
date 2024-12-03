@@ -1,0 +1,17 @@
+# 核心依赖
+cryptography>=41.0.0    # 用于加密存储登录信息
+beautifulsoup4>=4.12.0  # 用于解析 HTML 邮件
+
+# 邮件相关
+email-validator>=2.0.0  # 用于验证邮箱地址格式
+
+# GUI相关
+tkinter               # 用于文件选择对话框(Python标准库)
+
+# 编码支持
+chardet>=5.0.0       # 用于自动检测文本编码
+
+# 开发工具(可选)
+pytest>=7.0.0        # 用于单元测试
+black>=23.0.0        # 代码格式化
+flake8>=6.0.0        # 代码检查 
